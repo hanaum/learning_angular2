@@ -32,6 +32,7 @@
     "clang-format": "^1.0.41",
     "concurrently": "^2.0.0",
     "lite-server": "^2.2.0",
+    "tslint": "^3.11.0",
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
   }
