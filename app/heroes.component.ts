@@ -74,9 +74,9 @@ export class HeroesComponent implements OnInit {
   title = 'Tour of Heroes';
   heroes: Hero[];
   selectedHero: Hero;
-  constructor(private heroService: HeroService) {}
+  constructor() {}
 
-  getHeroes() { this.heroService.getHeroes().then(heroes => this.heroes = heroes); }
+  getHeroes() { HeroService.getHeroes().then(heroes => this.heroes = heroes); }
 
   ngOnInit() { this.getHeroes(); }
 
