@@ -4,3 +4,5 @@ typings
 .DS_STORE
 
 .idea
+*.js
+*.js.map
